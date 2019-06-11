@@ -39,14 +39,14 @@ In the end we want to build a reporting tool that will allow us to extract impor
 8. Create the views given below and after exit psql with Ctrl + D
 9. And finally execute the Python file with:
 
-- `python log_analysis.py`
+- `python logs_analysis.py`
 
 ## CREATE THESE VIEWS BEFORE EXECUTING THE PROGRAM
 
 The first view logs for the third question:
 
     CREATE VIEW logs AS
-    SELECT to_char(time, "DD-MON-YYYY") as Date,
+    SELECT to_char(time, 'DD-MON-YYYY') as Date,
     COUNT(*) as logcount
     FROM log
     GROUP BY Date;
@@ -54,10 +54,10 @@ The first view logs for the third question:
 And the secod view errorlogs:
 
     CREATE VIEW errorlogs AS
-    SELECT to_char(time, "DD-MON-YYYY") as Date,
+    SELECT to_char(time, 'DD-MON-YYYY') as Date,
     COUNT(*) as errorcount
     FROM log
-    WHERE STATUS "404 NOT FOUND"
+    WHERE STATUS '404 NOT FOUND'
     GROUP BY Date;
 
 ## End of Project
