@@ -44,7 +44,7 @@ This project is part of the [Udacity's Full Stack Web Developer Nanodegree](http
 
 ## CREATE THESE VIEWS BEFORE EXECUTING THE PROGRAM
 
-The first view logs for the third question:
+The first view:
 
     CREATE VIEW logs AS
     SELECT to_char(time, 'DD-MON-YYYY') as Date,
@@ -52,7 +52,7 @@ The first view logs for the third question:
     FROM log
     GROUP BY Date;
 
-And the secod view errorlogs:
+And the secod view:
 
     CREATE VIEW errorlogs AS
     SELECT to_char(time, 'DD-MON-YYYY') as Date,
