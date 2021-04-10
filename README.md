@@ -11,11 +11,11 @@ This project is part of the [Udacity's Full Stack Web Developer Nanodegree](http
 3. On which days did more than 1% of the requests lead to errors?
 
 ## Technologies used:
-[Python 3](https://www.python.org/downloads/)
-[Vagrant](https://www.vagrantup.com/) - for building and maintaing portable virtual software development environments
-[VirtualBox](https://www.virtualbox.org/) - for running a virtual machine on your computer
-[Git](https://git-scm.com/) - an open source version control system
-[psql](https://www.postgresql.org/) - relational database management system
+1. [Python 3](https://www.python.org/downloads/)
+2. [Vagrant](https://www.vagrantup.com/) - for building and maintaing portable virtual software development environments
+3. [VirtualBox](https://www.virtualbox.org/) - for running a virtual machine on your computer
+4. [Git](https://git-scm.com/) - an open source version control system
+5. [psql](https://www.postgresql.org/) - relational database management system
 
 ## Setting up the project
 
