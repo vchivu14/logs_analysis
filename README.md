@@ -1,4 +1,4 @@
-# Log Analysis Projecy
+# Log Analysis Project
 
 ## Project description:
 
