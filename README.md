@@ -2,19 +2,22 @@
 
 ## Project description:
 
-This project is part of the [Udacity's Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
-In the end we want to build a reporting tool that will allow us to extract important data from a given database. In our case a newspapaer website. This task will sharpen our SQL database skills while building queries for three questions:
+<h5>This project is part of the [Udacity's Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)</h5>
+<p>In the end we want to build a reporting tool that will allow us to extract important data from a given database. In our case a newspapaer website.</p> 
+<p>This task will sharpen our SQL database skills while building queries for three questions:<p>
 
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of the requests lead to errors?
 
 ## Technologies used:
-
-[Python 3](https://www.python.org/downloads/) - version 3.7
-[Vagrant](https://www.vagrantup.com/) - for building and maintaing portable virtual software development environments
-[VirtualBox](https://www.virtualbox.org/) - for running another operating system simultaneously
-[Git](https://git-scm.com/) - an open source version control system
+<ol>
+  <li>[Python 3](https://www.python.org/downloads/) - version 3.7</li>
+  <li>[Vagrant](https://www.vagrantup.com/) - for building and maintaing portable virtual software development environments</li>
+  <li>[VirtualBox](https://www.virtualbox.org/) - for running another operating system simultaneously</li>
+  <li>[Git](https://git-scm.com/) - an open source version control system</li>
+  <li>[psql](https://www.postgresql.org/)</li>
+</ol>
 
 ## Setting up the project
 
@@ -59,5 +62,3 @@ And the secod view errorlogs:
     FROM log
     WHERE STATUS '404 NOT FOUND'
     GROUP BY Date;
-
-## End of Project
