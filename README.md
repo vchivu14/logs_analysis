@@ -1,7 +1,7 @@
 # Log Analysis Project
 
 ## Project description:
-
+ 
 This project is part of the [Udacity's Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 <p>In the end we want to build a reporting tool that will allow us to extract important data from a given database. In our case a newspapaer website.</p> 
 <p>This task will sharpen our SQL database skills while building queries for three questions:<p>
